@@ -11,6 +11,14 @@ img {
   width: 200px;
   display: block;
 }
+.centered {
+  max-width: 90%;
+  width: 1200px;
+  margin: 0 auto;
+}
+/*
+header
+*/
 header {
   display: flex;
   align-items: center;
@@ -18,4 +26,19 @@ header {
 }
 nav {
   margin-left: auto;
+}
+nav a {
+  margin: 0 20px;
+}
+
+/* 
+Partecipants
+ */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cards .card {
+  margin: 20px;
+  text-align: center;
 }
